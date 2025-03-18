@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package main;
-
+//путь для генерации файлов на основе прото
 option go_package = "/grpcsex";
 
 service Greeter {
@@ -9,9 +9,9 @@ service Greeter {
 }
 
 message HelloRequest {
-  string name = 1;
+  string name = 1; //любые названия переменных = очередь
 }
 
 message HelloReply {
-  string message = 1;
+  string message = 1; //аутпут
 }
